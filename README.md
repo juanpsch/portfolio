@@ -1,6 +1,6 @@
 # 🚀 Juan Pablo Schamun | Senior Data Engineer & AI Specialist
 
-Hello! I'm Juan Pablo, an Industrial Engineer with over **10 years of experience** leading complex technical projects and managing critical data infrastructure within the nuclear energy sector (CNEA).
+Hello! I'm Juan Pablo, an Industrial Engineer with over **10 years of experience** leading complex technical projects and managing critical data infrastructure within the nuclear energy sector.
 
 My profile combines deep expertise in **Data Engineering (SQL, ETL, PLM Systems)** with advanced skills in **Artificial Intelligence and Machine Learning**.
 
