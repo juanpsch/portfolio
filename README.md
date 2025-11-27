@@ -22,7 +22,7 @@ My primary focus is leveraging structured data management to enable high-value A
 | [**Food Classifier ViT**](https://github.com/juanpsch/portfolio/tree/main/food-classifier-vit) | PyTorch, Vision Transformer, `timm` | Fine-tuned a ViT model for high-accuracy food image classification, demonstrating Deep Learning expertise. | 
 | **RAG System for Confidential Documents** | Python, LLMs, Vector DBs, LangChain/RAG-FLOW, Docker | Thesis project focused on architecting a secure, on-premise RAG system to query thousands of sensitive engineering documents, deployed via Docker. | 
 | **Industrial Data Migration & ETL** | Oracle SQL, Python Scripts | Led multiple mission-critical database migrations and developed complex ETL processes for PLM tools (SPI/ENOVIA), ensuring data integrity and system continuity. | 
-| [**By Zone Component clasiffication**](https://github.com/juanpsch/portfolio/Zonificacion) | Oracle SQL, Python Scripts | ETL processes for PLM tools (SPI/ENOVIA), extract data and process for clasifficationa and aggregation. | 
+| [**By Zone Component clasiffication**](https://github.com/juanpsch/portfolio/tree/main/Zonificacion) | Oracle SQL, Python Scripts | ETL processes for PLM tools (SPI/ENOVIA), extract data and process for clasifficationa and aggregation. | 
 
 ### 🎓 Education & Certifications
 
