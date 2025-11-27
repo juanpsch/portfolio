@@ -35,6 +35,6 @@ My primary focus is leveraging structured data management to enable high-value A
 
 I am actively seeking challenging remote roles that allow me to grow my AI capabilities while applying my robust foundation in Data Engineering and system coordination.
 
-[**Linkedin**](https://www.linkedin.com/in/juan-pablo-schamun-92378116/)
+[**Linkedin**](www.linkedin.com/in/juanpsch/)
 
 email: juanpsch@gmail.com
