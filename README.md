@@ -35,6 +35,6 @@ My primary focus is leveraging structured data management to enable high-value A
 
 I am actively seeking challenging remote roles that allow me to grow my AI capabilities while applying my robust foundation in Data Engineering and system coordination.
 
-[**Linkedin**](www.linkedin.com/juanpsch/)
+www.linkedin.com/juanpsch/
 
 email: juanpsch@gmail.com
