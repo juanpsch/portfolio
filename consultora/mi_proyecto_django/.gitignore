@@ -1,0 +1,10 @@
+# Environment variables and sensitive data
+.env
+db.sqlite3
+
+# Python-specific files and folders
+__pycache__/
+
+# Virtual environment folder
+venv/
+env/

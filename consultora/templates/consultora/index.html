@@ -1,0 +1,212 @@
+{% extends 'consultora/base.html' %}
+{% load static %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block extra_head %}
+    <!-- Font Awesome para los íconos del chatbot -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Enlace a la hoja de estilos del chatbot -->
+    <link rel="stylesheet" href="{% static 'css/chatbot.css' %}">
+{% endblock %}
+
+{% block content %}
+    <!-- Sección de inicio (Hero) con fondo de imagen -->
+    <section id="inicio" class="min-h-screen flex items-center justify-center text-center px-4 py-20 relative overflow-hidden bg-cover bg-center bg-no-repeat" style="background-image: url('https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg');">
+        <div class="absolute inset-0 bg-gray-900 opacity-70"></div>
+        <div class="max-w-4xl z-10 p-4 sm:p-8 md:p-12">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+                Transformamos tu PYME con <span class="text-blue-400">Inteligencia Artificial</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                Implementamos soluciones de IA a medida para optimizar tus procesos, analizar tus datos y mejorar la experiencia de tus clientes.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#contacto" class="w-full sm:w-auto px-8 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-700 transition-colors duration-300 transform hover:scale-105">
+                    Contáctanos
+                </a>
+                <a href="#servicios" class="w-full sm:w-auto px-8 py-3 bg-gray-700 text-gray-200 font-semibold rounded-full shadow-lg hover:bg-gray-600 transition-colors duration-300 transform hover:scale-105">
+                    Ver Servicios
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="servicios" class="py-20 bg-gray-800 text-gray-200">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Nuestros Servicios</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Tarjeta de Servicio 1 -->
+                <div class="bg-gray-700 p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-blue-400 text-4xl mb-4">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3">Automatización de Procesos</h3>
+                    <p class="text-gray-400">
+                        Optimizamos tus flujos de trabajo con IA, liberando a tu equipo de tareas repetitivas para que se concentren en lo que realmente importa.
+                    </p>
+                </div>
+                <!-- Tarjeta de Servicio 2 -->
+                <div class="bg-gray-700 p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-blue-400 text-4xl mb-4">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3">Análisis Predictivo</h3>
+                    <p class="text-gray-400">
+                        Utilizamos modelos de IA para analizar tus datos y predecir tendencias, ayudándote a tomar decisiones de negocio más inteligentes y proactivas.
+                    </p>
+                </div>
+                <!-- Tarjeta de Servicio 3 -->
+                <div class="bg-gray-700 p-8 rounded-xl shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-blue-400 text-4xl mb-4">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3">Chatbots Inteligentes</h3>
+                    <p class="text-gray-400">
+                        Implementamos asistentes virtuales que ofrecen soporte 24/7 a tus clientes, mejorando la satisfacción y reduciendo la carga de trabajo de tu equipo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros -->
+    <section id="nosotros" class="py-20 bg-gray-900 text-gray-200">
+        <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-8">
+            <div class="lg:w-1/2">
+                <h2 class="text-3xl font-bold mb-6">Sobre Nosotros</h2>
+                <p class="text-lg text-gray-400 mb-4">
+                    En PYME-IA Consultores, creemos firmemente que la Inteligencia Artificial no es solo para grandes corporaciones. Nuestra misión es democratizar el acceso a la IA, permitiendo que las pequeñas y medianas empresas compitan y prosperen en la era digital.
+                </p>
+                <p class="text-lg text-gray-400">
+                    Nuestro equipo de expertos está dedicado a crear soluciones a medida que resuelvan tus desafíos únicos y te ayuden a alcanzar tus objetivos de negocio.
+                </p>
+            </div>
+            <div class="lg:w-1/2">
+                <img src="https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Equipo de consultores" class="rounded-xl shadow-lg w-full h-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section id="testimonios" class="py-20 bg-gray-800 text-gray-200">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Lo que dicen nuestros clientes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonio 1 -->
+                <div class="bg-gray-700 p-8 rounded-xl shadow-lg">
+                    <p class="italic text-gray-300 mb-4">
+                        "La implementación de su chatbot ha revolucionado nuestro servicio al cliente. Hemos reducido los tiempos de respuesta y nuestros clientes están más satisfechos."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-600 rounded-full mr-4"></div>
+                        <div>
+                            <p class="font-semibold text-white">Ana Gómez</p>
+                            <p class="text-sm text-gray-400">Directora de Marketing, TechStart</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonio 2 -->
+                <div class="bg-gray-700 p-8 rounded-xl shadow-lg">
+                    <p class="italic text-gray-300 mb-4">
+                        "Gracias a la automatización de procesos, nuestra eficiencia ha aumentado un 40%. Ahora podemos dedicarnos a tareas de mayor valor."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-600 rounded-full mr-4"></div>
+                        <div>
+                            <p class="font-semibold text-white">Carlos Pérez</p>
+                            <p class="text-sm text-gray-400">Gerente de Operaciones, LogisticsPro</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonio 3 -->
+                <div class="bg-gray-700 p-8 rounded-xl shadow-lg">
+                    <p class="italic text-gray-300 mb-4">
+                        "La consultoría de IA nos ayudó a entender mejor a nuestros clientes y a optimizar nuestras campañas de publicidad. ¡Increíble!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gray-600 rounded-full mr-4"></div>
+                        <div>
+                            <p class="font-semibold text-white">María Soto</p>
+                            <p class="text-sm text-gray-400">Fundadora, FashionForward</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="py-20 bg-gray-900 text-gray-200">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Contáctanos</h2>
+            <div class="max-w-xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg">
+    <p class="text-center mb-6 text-gray-400">
+        ¿Listo para transformar tu empresa? Escríbenos y te contactaremos.
+    </p>
+    <form action="{% url 'contact_submit' %}" method="POST" class="space-y-4">
+        {% csrf_token %} <div>
+            <label for="nombre" class="block text-sm font-medium text-gray-400">Nombre</label>
+            <input type="text" id="nombre" name="nombre" class="mt-1 block w-full bg-gray-700 border border-gray-600 rounded-md p-2 text-gray-200 focus:ring-blue-500 focus:border-blue-500" required>
+        </div>
+        <div>
+            <label for="email" class="block text-sm font-medium text-gray-400">Email</label>
+            <input type="email" id="email" name="email" class="mt-1 block w-full bg-gray-700 border border-gray-600 rounded-md p-2 text-gray-200 focus:ring-blue-500 focus:border-blue-500" required>
+        </div>
+        <div>
+            <label for="mensaje" class="block text-sm font-medium text-gray-400">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" class="mt-1 block w-full bg-gray-700 border border-gray-600 rounded-md p-2 text-gray-200 focus:ring-blue-500 focus:border-blue-500" required></textarea>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="px-8 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-700 transition-colors duration-300">
+                Enviar Mensaje
+            </button>
+        </div>
+    </form>
+</div>
+        </div>
+    </section>
+
+    <!-- Botón flotante para el chatbot -->
+    <button id="chatbot-toggle" class="fixed bottom-6 right-6 z-50 w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white shadow-xl hover:bg-blue-700 transition-colors duration-300 transform hover:scale-110 focus:outline-none">
+        <i class="fas fa-comment-dots text-2xl"></i>
+    </button>
+
+    <!-- Contenedor del modal del chatbot -->
+    <div id="chatbot-modal" class="fixed inset-0 bg-black bg-opacity-75 z-40 flex items-end md:items-center justify-end p-4 md:p-0 hidden">
+        <div class="chat-container">
+            <!-- Encabezado del Chatbot -->
+            <div class="chat-header">
+                <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center">
+                    <i class="fas fa-robot text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg">Asistente IA</h3>
+                    <p class="text-xs text-gray-400">En línea</p>
+                </div>
+                <button id="close-chatbot" class="ml-auto text-white hover:text-gray-300 focus:outline-none">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            <!-- Mensajes del Chatbot -->
+            <div class="chat-messages" id="chat-messages">
+                <div class="message message-bot">
+                    ¡Hola! Soy tu asistente de IA. ¿En qué puedo ayudarte hoy?
+                </div>
+            </div>
+            <!-- Entrada del Chatbot -->
+            <div class="chat-input-container">
+                <input type="text" id="chat-input" class="chat-input" placeholder="Escribe un mensaje...">
+                <button id="chat-send-btn" class="chat-send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_scripts %}
+    <!-- Enlace al script del chatbot -->
+    <script src="{% static 'js/chatbot.js' %}"></script>
+{% endblock %}
